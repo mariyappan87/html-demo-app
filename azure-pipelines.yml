@@ -14,8 +14,8 @@ steps:
   displayName: 'Run a one-line script'
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'CI_CD DEMO'   # (match your service connection name)
-    appName: 'mariyappan87.html-demo-app'             # (your Azure App Service name)
+    azureSubscription: 'mariyappan87'   # (match your service connection name)
+    appName: 'html-demo-app'             # (your Azure App Service name)
     package: '$(System.DefaultWorkingDirectory)'
 
 - script: |
