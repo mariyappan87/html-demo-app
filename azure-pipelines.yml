@@ -15,7 +15,7 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'CI_CD DEMO'   # (match your service connection name)
-    appName: 'html-demo-app'             # (your Azure App Service name)
+    appName: 'mariyappan87.html-demo-app'             # (your Azure App Service name)
     package: '$(System.DefaultWorkingDirectory)'
 
 - script: |
